@@ -1,6 +1,7 @@
-package midarikawa.codes.my_spring_project.code;
+package kz.ardak.sensorservice;
 
 import jakarta.persistence.*;
+import kz.ardak.sensorservice.Sensor;
 import lombok.Data;
 
 @Entity

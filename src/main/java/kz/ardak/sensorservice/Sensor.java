@@ -1,7 +1,7 @@
-package midarikawa.codes.my_spring_project.code;
+package kz.ardak.sensorservice;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
+//import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Entity
@@ -12,6 +12,6 @@ public class Sensor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Sensor name is required")
+//    @NotBlank(message = "Sensor name is required")
     private String name;
 }

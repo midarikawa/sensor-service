@@ -1,2 +1,4 @@
-package kz.ardak.sensorservice;public class SensorService {
+package kz.ardak.sensorservice;
+
+public class SensorService {
 }
