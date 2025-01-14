@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:4000/sensors
+    username: root
+    password: root
+    driver-class-name: com
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
