@@ -1,6 +1,5 @@
-package midarikawa.codes.my_spring_project.code;
+package kz.ardak.sensorservice;
 
-import midarikawa.codes.my_spring_project.code.Sensor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
